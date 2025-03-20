@@ -514,4 +514,102 @@ margin-right: 120px
             top: 50%;
             left:50%;
             transform: translate(-50%, -50%);
+padding-top: 72px; 
+padding-left: 24px;
+        }
+
+.modal-close-btn{
+position: absolute;
+top: 24px;
+right: 24px;
+border: none;
+background-color: transparent;
+}
+
+.modal-titel{
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 16px;
+}
+
+.modal-wrapper{
+margin-bottom: 8px;
+}
+
+.modal-label{
+    display: block;
+font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    margin-bottom: 4px;
+}
+
+.modal-field{
+
+}
+
+.modal-input{
+border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    width:360px;
+    height: 40px;
+    background-color: transparent;
+}
+
+.modal-input:focus{
+border: 1px solid #4d5ae5;
+outline: none;
+}
+
+
+.modal-textarea{
+resize: none;
+border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    width: 360px;
+    height: 120px;
+}
+
+.checkbox-wrapper{
+}
+
+.checkbox-input{
+
+}
+
+.modal-label-accept{
+border-radius: 4px;
+    width: 360px;
+    height: 16px;
+    font-weight: 400;
+        font-size: 12px;
+        line-height: 1.16667;
+        letter-spacing: 0.04em;
+        color: #8e8f99;
+}
+
+.privacy-link{
+
+}
+
+.modal-submit-btn{
+border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        background: #4d5ae5;
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            text-align: center;
+            color: #fff;
+            border: none;
 }
