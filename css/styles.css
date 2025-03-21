@@ -758,7 +758,7 @@ color: #4d5ae5;
 }
 
 
-.checkbox-input:ckecked + .modal-label-accept > .modal-check {
+.checkbox-input:checked + .modal-label-accept > .modal-check {
    background-color: #404bbf;
 border: none;
 fill:#F4F4FD;
