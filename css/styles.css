@@ -664,7 +664,9 @@ line-height: 1.17;
 position: relative;
 }
 
-
+.modal-field{
+    position: relative;
+}
 .modal-input{
 border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
@@ -688,9 +690,7 @@ outline: none;
 .modal-input:focus + .modal-icon{
 fill: #4d5ae5;
 }
-.modal-icon:hover {
-    fill: #ffffff;
-}
+
 
 .modal-icon{
 position: absolute;
