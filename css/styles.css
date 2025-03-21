@@ -606,12 +606,16 @@ transition: stroke var(--animation);
 .modal-close-btn:hover .close-icon{
 stroke:#2e2f42;
 fill:#FFFFFF;
-background-color: #404bbf;
+
 
 } 
-
+.modal-close-btn:hover{
+    background-color: #404bbf;
+    border: none;
+}
 .modal-close-btn:focus{
     background-color: #404bbf;
+    border: none;
 }
 
 .modal-titel{
@@ -625,7 +629,8 @@ font-weight: 500;
 }
 
 .modal-wrapper{
-margin-bottom: 16px;
+
+margin-bottom: 8px
 }
 
 .modal-label{
